@@ -2,7 +2,7 @@
   "name": "react-native-sglistview",
   "version": "0.4.3",
   "description": "A React Native module to provide a memory efficent ListView over the native implementation",
-  "main": "dist/index.js",
+  "main": "lib/index.js",
   "scripts": {
     "build": "yarn config:enable:babelrc; ./node_modules/.bin/babel --source-maps=true --out-dir=dist lib; yarn config:disable:babelrc",
     "config:disable:babelrc": "./scripts/disable_babel_config.sh",
